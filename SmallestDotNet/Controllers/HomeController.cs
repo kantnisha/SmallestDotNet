@@ -1,12 +1,10 @@
-﻿    using SmallestDotNet.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
-
-namespace SmallestDotNet.Controllers
+﻿namespace SmallestDotNet.Controllers
 {
+    using SmallestDotNet.Models;
+    using System;
+    using System.Web;
+    using System.Web.Mvc;
+
     public class HomeController : Controller
     {
         public ActionResult Index()
