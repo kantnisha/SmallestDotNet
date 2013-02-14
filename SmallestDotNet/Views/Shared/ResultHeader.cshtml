@@ -1,0 +1,26 @@
+﻿@model SmallestDotNet.Models.SmallestNetModel
+<div class="span12">
+    <div class="result-header">
+        <h1 id="header-statement">Do you have .NET?</h1>
+        <p class="lead" id="javascriptResult">
+            @Html.Raw(Model.UserResult)
+        </p>
+        <br />
+        @if (Model.ShowGetDotNet)
+        {
+            <a runat="server" id="getdotnet" class="m-btn big" href="#">
+                <i class="icon-download-alt"></i>
+                <strong> Get .NET</strong>
+            </a>
+        }
+
+        @if (Model.CheckDotNet)
+        {
+            <a runat="server" visible="false" id="checkdotnet" class="m-btn big" href="https://github.com/downloads/shanselman/SmallestDotNet/CheckForDotNet45.exe">
+                <strong>
+                    <i class="icon-download-alt"></i> .NET Checker
+                </strong>
+            </a>
+        }
+    </div>
+</div>

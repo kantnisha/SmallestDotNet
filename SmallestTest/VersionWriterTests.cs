@@ -1,7 +1,9 @@
-﻿namespace SmallestTest
-{
-    using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using System;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using SmallestDotNetLib;
 
+namespace SmallestTest
+{
     [TestClass]
     public class VersionWriterTests
     {

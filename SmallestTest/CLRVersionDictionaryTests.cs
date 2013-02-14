@@ -1,10 +1,12 @@
-﻿namespace SmallestTest
-{
-    using Microsoft.VisualStudio.TestTools.UnitTesting;
-    using SmallestDotNetLib;
-    using System.Collections;
-    using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using SmallestDotNetLib;
+using System.Drawing;
+using System.Collections;
 
+namespace SmallestTest
+{
     [TestClass]
     public class CLRVersionDictionaryTests
     {

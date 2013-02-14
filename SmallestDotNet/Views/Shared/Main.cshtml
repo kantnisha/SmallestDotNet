@@ -1,0 +1,27 @@
+﻿@model SmallestDotNet.Models.SmallestNetModel
+
+<div class="container">
+    <div class="row-fluid">
+        @Html.Partial("ResultHeader",Model)
+    </div>
+    <div class="row-fluid">
+        @Html.Partial("NetChecker")
+    </div>
+    <div class="row-fluid">
+        @Html.Partial("WhatHappened")
+        @Html.Partial("Download", Model.DeveloperResult)
+    </div>
+    <div class="row-fluid">
+        @Html.Partial("AreYouProgrammer")
+        @Html.Partial("UserAgent",Model.UserAgent)
+    </div>
+    <div class="row-fluid">
+        @Html.Partial("Integration")
+    </div>
+    <div class="row-fluid">
+        @Html.Partial("JsonDetect")
+    </div>
+    <div class="row-fluid">
+        @Html.Partial("Js")
+    </div>
+</div>
